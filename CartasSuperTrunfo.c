@@ -8,8 +8,32 @@
 
 int main() {
     
-    printf("Desafio Xadrez:\n");
+    printf("Desafio Super trunfo:\n");
+
+    int populacao;
+    float area;
+    float pib;
+    int pontost;
     
+   
+    printf("Populacao\n");
+    scanf("%d", &populacao);
+
+    printf("Area\n");
+    scanf("%f", &area);
+
+    printf("PIB\n");
+    scanf("%f", &pib);
+
+    printf("Pontos turisticos\n");
+    scanf("%d", &pontost);
+
+    printf(" População %d - Pontos turisticos %d\n", populacao, pontost);
+
+    printf("Area %f - PIB %f\n", area, pib);
+    return 0;
+
+
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
